@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #c8e6c9, #a5d6a7); /* Dégradé uniforme de vert */
+    color: #333; /* Couleur de texte par défaut */
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/fond du site.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fond de site.png'); /* Lien vers ton image */
+    background-size: cover; /* Ajuste l'image pour couvrir tout l'écran */
+    background-position: center; /* Centre l'image */
+    color: #333; /* Couleur de texte par défaut */
+}
+/* Assurez-vous que le corps a un fond approprié */
+body {
+    background-image: url('images/fond du site.png'); /* Fond d'écran */
+    background-size: cover; /* Ajuste l'image pour couvrir tout l'écran */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+    margin: 0; /* Supprime les marges du corps */
+}
+
+
+
+
+header {
+    background-color: transparent; /* Rend le fond transparent */
+    color: #fff; /* Couleur du texte par défaut (pour les autres éléments) */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem; /* Augmente la taille de la police */
+    font-weight: bold; /* Met le texte en gras */
+    color: #fff; /* Définit la couleur en blanc */
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f0ad4e;
+}
+
+
+nav ul {
+    list-style-type: none; /* Supprime les puces de la liste */
+    padding: 0; /* Supprime le padding par défaut */
+    margin: 0; /* Supprime la marge par défaut */
+    display: flex; /* Affiche les éléments de la liste horizontalement */
+}
+
+nav ul li {
+    margin-right: 20px; /* Ajoute un espacement entre les éléments */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Supprime l'espacement après le dernier élément */
+}
+
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+}
+.contact {
+    color: white;
+}
+
+
+footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+
+footer {
+    background-color: transparent; /* Supprime la couleur de fond blanche */
+    color: white; /* Change la couleur du texte en blanc */
+    text-align: center;
+    padding: 10px 0; /* Optionnel : ajuste l'espacement si nécessaire */
+}
+footer {
+    background-color: transparent; /* Supprime la couleur de fond */
+    color: white; /* Texte en blanc */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; /* Fixe le pied de page en bas de la page */
+    bottom: 0;
+    left: 0;
+    width: 100%; /* S'étend sur toute la largeur de la page */
+}
+/* Styles minimalistes pour le footer */
+footer {
+    text-align: center; /* Centre le texte */
+    background-color: transparent; /* Supprime toute couleur de fond */
+    color: #fff; /* Texte en blanc */
+    width: 100%; /* Prend toute la largeur */
+    margin: 0 !important; /* Supprime toute marge */
+    padding: 0 !important; /* Supprime tout padding */
+    border: none; /* Supprime toute bordure */
+}
+/* Masquer complètement le footer */
+footer {
+    display: none; /* Cache le footer */
+}
+
+
+
+
+
+

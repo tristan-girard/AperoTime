@@ -1,0 +1,209 @@
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/fond du site.png'); /* Lien vers ton image */
+    background-size: cover; /* Ajuste l'image pour couvrir tout l'écran */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Ne répète pas l'image */
+    min-height: 100vh; /* Assure que le corps prend au moins toute la hauteur de la fenêtre */
+    color: #333; /* Couleur de texte par défaut */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/fond du site.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #c8e6c9, #a5d6a7); /* Dégradé uniforme de vert */
+    color: #333; /* Couleur de texte par défaut */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fond de site.png'); /* Lien vers ton image */
+    background-size: cover; /* Ajuste l'image pour couvrir tout l'écran */
+    background-position: center; /* Centre l'image */
+    color: #333; /* Couleur de texte par défaut */
+}
+body {
+    display: flex; /* Utilise le flexbox pour gérer l'affichage */
+    flex-direction: column; /* Aligne les enfants en colonne */
+    min-height: 100vh; /* Assure que le corps prend au moins toute la hauteur de la fenêtre */
+}
+
+
+
+
+
+
+
+header {
+    background-color: transparent; /* Rend le fond transparent */
+    color: #fff; /* Couleur du texte par défaut (pour les autres éléments) */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem; /* Augmente la taille de la police */
+    font-weight: bold; /* Met le texte en gras */
+    color: #fff; /* Définit la couleur en blanc */
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f0ad4e;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+}
+nav ul {
+    list-style-type: none; /* Supprime les puces de la liste */
+    padding: 0; /* Supprime le padding par défaut */
+    margin: 0; /* Supprime la marge par défaut */
+    display: flex; /* Affiche les éléments de la liste horizontalement */
+}
+
+nav ul li {
+    margin-right: 20px; /* Ajoute un espacement entre les éléments */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Supprime l'espacement après le dernier élément */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center; /* Centre le texte */
+    padding: 2rem; /* Ajoute de l'espace autour du contenu */
+    background-color: rgba(255, 255, 255, 0.8); /* Fond blanc avec opacité */
+    border-radius: 10px; /* Coins arrondis */
+    margin: 2rem auto; /* Marge en haut et en bas, centré horizontalement */
+    max-width: 800px; /* Largeur maximum pour un meilleur affichage */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition pour un effet doux */
+}
+
+.hero:hover {
+    background-color: transparent; /* Devient transparent au survol */
+}
+
+.hero h1 {
+    font-size: 2rem; /* Réduit la taille de la police pour le titre */
+    color: #d9534f; /* Couleur du texte du titre */
+    margin-bottom: 1rem; /* Marge en bas du titre */
+    background-color: transparent; /* Assure qu'il n'y a pas de fond orange */
+    padding: 0; /* Supprime tout padding qui pourrait créer un espace */
+    transition: color 0.3s ease; /* Ajoute une transition pour la couleur du texte */
+}
+
+.hero p {
+    font-size: 1.25rem; /* Taille de police pour le paragraphe */
+    color: #d9534f; /* Couleur du texte du paragraphe */
+    margin-bottom: 1rem; /* Marge en bas du paragraphe */
+}
+
+.hero:hover h1, .hero:hover p { /* Cible le texte au survol */
+    color: white; /* Change la couleur du texte en blanc */
+}
+
+
+
+
+hero button {
+    margin-top: 1rem; /* Marge au-dessus du bouton */
+    padding: 0.5rem 1rem; /* Espacement à l'intérieur du bouton */
+    background-color: #d9534f; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte en blanc */
+    border: none; /* Supprime la bordure du bouton */
+    cursor: pointer; /* Change le curseur en pointeur au survol */
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.product {
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+}
+.product img {
+    width: 50%; /* S'adapte à la largeur de son conteneur */
+    height: auto; /* Garde les proportions */
+    border-radius: 5px; /* Arrondit les coins de l'image */
+}
+.product img {
+    width: 50%; /* S'adapte à la largeur de son conteneur */
+    height: auto; /* Garde les proportions */
+    border-radius: 5px; /* Arrondit les coins de l'image */
+}
+.product img {
+    width: 50%; /* S'adapte à la largeur de son conteneur */
+    height: auto; /* Garde les proportions */
+    border-radius: 5px; /* Arrondit les coins de l'image */
+}
+
+
+
+/* Styles pour le footer */
+footer {
+    text-align: center; /* Centre le texte */
+    padding: 1rem; /* Ajustez le padding selon vos besoins */
+    background-color: transparent; /* Rend le fond transparent */
+    color: #fff; /* Couleur du texte en blanc */
+    position: relative; /* Position normale pour éviter de le fixer */
+    width: 100%; /* Prend toute la largeur */
+    margin-top: auto; /* Pousse le footer vers le bas */
+}
+
+
+
+
+
+
+
+
+

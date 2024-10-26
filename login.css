@@ -1,0 +1,154 @@
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style de base */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-image: url('fond de site.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: transparent; /* Retire la couleur de fond */
+    color: #333; /* Assure la couleur du texte */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff; /* Couleur blanche pour "AperoTime" */
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f0ad4e;
+}
+
+/* Style pour la section de connexion */
+.login {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin: 2rem auto;
+    max-width: 500px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.login:hover {
+    background-color: transparent;
+}
+
+.login h1 {
+    font-size: 2rem;
+    color: #d9534f;
+    margin-bottom: 1rem;
+    transition: color 0.3s ease;
+}
+
+.login:hover h1 {
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+/* Style des labels */
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333; /* Couleur initiale des labels */
+    transition: color 0.3s ease;
+}
+/* Couleur initiale des labels */
+label {
+    color: #333; /* Couleur par défaut */
+    transition: color 0.3s ease;
+}
+
+/* Change la couleur des labels au survol de l'input */
+.form-group:hover label {
+    color: #fff; /* Blanc au survol */
+}
+
+/* Style des champs d'entrée */
+input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c9302c;
+}
+
+/* Style pour le pied de page */
+footer {
+    text-align: center;
+    padding: 1rem;
+    color: #fff; /* Couleur blanche pour le texte du pied de page */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent; /* Pas de couleur de fond */
+}
+
+
+
